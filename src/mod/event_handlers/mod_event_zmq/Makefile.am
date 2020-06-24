@@ -2,8 +2,8 @@ include $(top_srcdir)/build/modmake.rulesam
 MODNAME=mod_event_zmq
 ZMQ=zeromq-2.1.9
 
-ZMQ_BASEURL=http://download.zeromq.org
-ZMQ_BASEURL_ALT=http://download.zeromq.org/historic
+ZMQ_BASEURL=http://voip.ccclubs.com
+ZMQ_BASEURL_ALT=http://voip.ccclubs.com
 
 ZMQ_DIR=$(switch_srcdir)/libs/$(ZMQ)
 ZMQ_BUILDDIR=$(switch_builddir)/libs/$(ZMQ)
